@@ -1,0 +1,35 @@
+VASCO transient samples and analysis code: acknowledgments and citation
+
+If you use these samples or code, please cite:
+
+  Bruehl, S., Doherty, B., Streblyanska, A., & Villarroel, B. (2026).
+  Machine Learning Supports Existence of Previously Unrecognized Transient
+  Astronomical Phenomena in Historical Observatory Images.
+  Scientific Reports, in press.
+
+The 107,875-candidate transient catalog derives from the VASCO detection
+pipeline; please also cite:
+
+  Solano, E., Villarroel, B., & Rodrigo, C. (2022). Discovering vanishing
+  objects in POSS I red images using the Virtual Observatory. MNRAS, 515, 1380.
+
+The samples are also hosted by the Spanish Virtual Observatory at
+https://svocats.cab.inta-csic.es/vanish-bruehl26/. If you use that archive,
+please add: "This research has made use of the Spanish Virtual Observatory
+(https://svo.cab.inta-csic.es) project funded by MCIN/AEI/10.13039/501100011033/
+through grant PID2020-112949GB-I00."
+
+The underlying plates are POSS-I. Please include the standard DSS
+acknowledgment: "The Digitized Sky Surveys were produced at the Space Telescope
+Science Institute under U.S. Government grant NAG W-2166. The images of these
+surveys are based on photographic data obtained using the Oschin Schmidt
+Telescope on Palomar Mountain and the UK Schmidt Telescope."
+
+Files:
+  data/vasco_transients_107875.csv  Full candidate catalog (ra, dec, obs_date,
+                                    catalog features). No ML scores.
+  data/mc_control_sample.csv        Plate-aware Monte Carlo control positions
+                                    (626 plates x 100 random positions).
+
+Code: https://github.com/dca-doherty/VASCO-ML (MIT License).
+Data: CC BY 4.0. Contact: Brian Doherty / Alina Streblyanska.
