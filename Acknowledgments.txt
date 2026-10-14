@@ -28,8 +28,8 @@ Telescope on Palomar Mountain and the UK Schmidt Telescope."
 Files:
   data/vasco_transients_107875.csv  Full candidate catalog (ra, dec, obs_date,
                                     catalog features). No ML scores.
-  data/mc_control_sample.csv        Plate-aware Monte Carlo control positions
-                                    (626 plates x 100 random positions).
+  data/XE_final_random_sources.csv        Plate-aware Monte Carlo control positions
+                                    (635 plates x 100 random positions).
 
 Code: https://github.com/dca-doherty/VASCO-ML (MIT License).
 Data: CC BY 4.0. Contact: Brian Doherty / Alina Streblyanska.
