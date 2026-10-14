@@ -7,7 +7,7 @@ Files:
 - vasco_transients_107875.csv: all 107,875 transient candidates from the
   VASCO detection pipeline (ra, dec, obs_date, catalog features). No ML scores.
 - mc_control_sample.csv: plate-aware Monte Carlo control positions
-  (626 plates x 100 random positions). Coming shortly.
+  (626 plates x 100 random positions).
 
 Code: the ML pipeline and analysis scripts are at
 https://github.com/dca-doherty/VASCO-ML
